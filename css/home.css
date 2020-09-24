@@ -1,0 +1,131 @@
+header {
+    height: 100vh;
+    padding-top: 0;
+    background-size: cover;
+    background: url(../images/background.jpg) no-repeat top;
+    background-size: cover;
+    background-position: center center;
+}
+
+.landing {
+    height: 100%;
+    width: 100%;
+}
+
+
+/*align search bar and popular to the left*/
+
+.calmerIntro {
+    background-color: rgba(10, 10, 10, 0.4);
+    justify-content: center;
+    color: white;
+    width: 39%;
+    height: 45%;
+    position: absolute;
+    right: 30px;
+    text-align: left;
+}
+
+.calmerIntro h1 {
+    font-size: 2em;
+}
+
+.startbutton {
+    padding: 10px 25px;
+    margin-top: 30px;
+    border: solid 1px #29bf12;
+    border-radius: 20px;
+    background-color: #29bf12;
+    box-shadow: 1px 1px 2px 1px rgba(41, 191, 18, 0.3);
+    color: white;
+}
+
+main {
+    padding: 0 10%;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Float five cards side by side */
+
+.event-card {
+    width: 280px;
+    height: 370px;
+    padding: 30px 10px;
+    margin-top: 30px;
+    box-shadow: 2px 2px 3px 2px rgba(182, 182, 182, 0.3);
+    border: none;
+    border-radius: 5px;
+}
+
+.event-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: contain;
+    border-radius: 5px 5px 0 0;
+}
+
+.event-card-footer {
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.service-category-item {
+    width: 250px;
+    text-align: center;
+}
+
+.category-icon {
+    font-size: 60px;
+    margin: 0 0 2px 0;
+    color: #29bf12;
+}
+
+.icon-divider {
+    border-top: 1px solid #29bf12;
+    width: 30px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.order-button {
+    width: 50%;
+    height: 35px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #29bf12;
+    box-shadow: 1px 1px 2px rgba(26, 117, 8, 0.3);
+    color: white;
+    font-size: 12px;
+}
+
+.events,
+.tourism {
+    text-align: justify;
+}
+
+.testimonial {
+    width: 48%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px 2px rgba(182, 182, 182, 0.3);
+}
+
+.profile img {
+    float: left;
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+}
+
+.profile img {
+    float: left;
+    width: 7%;
+    height: 7%;
+    border-radius: 50%;
+}
